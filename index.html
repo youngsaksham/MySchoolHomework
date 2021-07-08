@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body style="background-color: yellow;">
+    <center style="margin-top: 200px;">
+        <h1 style="font-size: 60px;">
+            Homework
+        </h1>
+        <h1 style="font-size: 50px;">
+            Main Page
+        </h1>
+
+        <h1>
+            Select Your Subject Homework
+        </h1>
+        <button id="ScienceId" style="font-size: xx-large;">Science</button>
+        <button id="MathsId" style="font-size: xx-large;">Maths</button>
+    </center>
+    <script>
+         document.getElementById("MathsId").onclick = function(){open("./maths/maths.html")}
+         document.getElementById("ScienceId").onclick = function(){open("./science/science.html")}
+    </script>
+</body>
+</html>
